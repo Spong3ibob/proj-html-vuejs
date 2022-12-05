@@ -15,6 +15,6 @@ export default {
 </main>
 </template>
 
-<style scoped>
+<style lang="scss">
 
 </style>

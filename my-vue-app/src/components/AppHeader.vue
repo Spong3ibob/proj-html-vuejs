@@ -8,7 +8,7 @@ export default {
 
         }
     },
- conponents: {
+ components: {
     AppNav,
     AppText,
  }
@@ -17,7 +17,7 @@ export default {
 
 <template>
     <header>
-        <div>
+        <div class="container-nav">
             <img src="../assets/avada-bakery-logo.png" alt="">
             <AppNav/>
         </div>
@@ -27,7 +27,12 @@ export default {
 
 </template>
 
-<style scoped>
+<style lang="scss">
+.container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 img{
     padding-top: 20px;
     padding-left: 35px;
@@ -36,6 +41,3 @@ img{
 </style>
 
 
-<!-- <font-awesome-icon icon="fa-solid fa-cart-shopping" />
-<font-awesome-icon icon="fa-solid fa-chevron-right" />
-<font-awesome-icon icon="fa-solid fa-chevron-left" /> -->

@@ -21,6 +21,6 @@ export default {
 </footer>
 </template>
 
-<style scoped>
+<style lang="scss">
 
 </style>
