@@ -5,7 +5,17 @@ import AppText from './AppText.vue'
 export default {
     data () {
         return {
-
+            navheaders:[
+                'HOME',
+                'SHOP',
+                'ABOUT',
+                'GALLERY',
+                'LOCATIONS',
+                'JOURNAL',
+                'CONTACT',
+                'MY ACCOUNT',
+                '<font-awesome-icon icon="fa-solid fa-cart-shopping" />'
+            ]
         }
     },
  components: {
@@ -19,7 +29,10 @@ export default {
     <header>
         <div class="container-nav">
             <img src="../assets/avada-bakery-logo.png" alt="">
-            <AppNav/>
+            <AppNav 
+            v-for="navheader in navheaders"
+            :info="navheader"
+            />
         </div>
         
         <AppText/>

@@ -5,20 +5,23 @@ export default {
 
         }
     },
+    props: {
+        info:Object,
+    }
 }
 </script>
 
 <template>
     <ul>
-        <li class="active">HOME</li>
+        <li>{{ info }}</li>
+        <!-- <li class="active">HOME</li>
         <li>SHOP</li>
         <li>ABOUT</li>
         <li>GALLERY</li>
         <li>LOCATIONS</li>
         <li>JOURNAL</li>
         <li>CONTACT</li>
-        <li>MY ACCOUNT</li>
-        <li><font-awesome-icon icon="fa-solid fa-cart-shopping" /></li>
+        <li>MY ACCOUNT</li> -->
     </ul>
 
 </template>
