@@ -19,8 +19,11 @@ export default {
   <AppHeder/>
   <AppMain/>
   <AppFooter/>
+
 </template>
 
-<style scoped>
+<style lang='scss'>
+@import '../global.scss';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap'); 
 
 </style>
