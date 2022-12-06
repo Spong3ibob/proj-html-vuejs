@@ -12,10 +12,9 @@ export default {
 </script>
 
 <template>
-    <ul>
-        <li :class="active == true">{{ nav }}</li>
-    </ul>
-    <font-awesome-icon icon="fa-solid fa-cart-shopping"/>
+
+        <li :class="{active: nav.val}">{{ nav.name }}</li>
+    
 </template>
 
 <style lang="scss">

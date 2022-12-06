@@ -4,7 +4,15 @@ import AppText from './AppText.vue'
 export default {
   data() {
     return {
-      
+      textproducts:[
+        {
+            pretitle : 'OUR PRODUCTS',
+            descrition : 'All our delectable pastries are backed fresh in our kitchen very morning, and are made whit all-natural, all organic ingredients.',
+            button : 'Start Shopping',
+            primary:false,
+            secondary:true,
+        },
+      ]
     }
   },
   components: {
@@ -15,7 +23,10 @@ export default {
 
 <template>
   <section class="section-products">
-    <AppText/>
+    <AppText
+    v-for="textproduct in textproducts"
+    :text="textproduct"
+    />
     <div class="carosel">
       <img src="../assets/choco-chip-cookies.jpg" alt="">
       <img src="../assets/strawberry-jam-cookies.jpg" alt="">

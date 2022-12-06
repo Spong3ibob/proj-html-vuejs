@@ -12,7 +12,7 @@ export default {
 
 <template>
     <section class="section-events">
-        <span>CORPORATE & WEDDINGs</span>
+        <span>CORPORATE & WEDDINGS</span>
         <h2>Baking Special Moments</h2>
         <img src="../assets/corporate-bg.jpg" alt="">
         <img src="../assets/wedding-bg.jpg" alt="">

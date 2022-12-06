@@ -1,4 +1,4 @@
-.primary-button{
+.primaryButton{
     background-color: var(--botton-primary);
     border: none;
     color: var(--button-secondary);
@@ -6,11 +6,11 @@
     border-radius: 5px;
     font-size: 13px;
 }
-.primary-button:hover{
+.primaryButton:hover{
     color: var(--botton-primary) ;
     background-color: var(--button-secondary);
 }
-.secondary-button{
+.secondaryButton{
     background-color: var(--button-secondary);
     border: none;
     color: var(--botton-primary);
@@ -18,7 +18,7 @@
     border-radius: 5px;
     font-size: 13px;
 }
-.secondary-button:hover{
+.secondaryButton:hover{
     color: var(--botton-secondary) ;
     background-color: var(--button-secondary-hover);
 }
