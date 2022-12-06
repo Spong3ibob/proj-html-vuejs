@@ -1,0 +1,24 @@
+.primary-button{
+    background-color: var(--botton-primary);
+    border: none;
+    color: var(--button-secondary);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.primary-button:hover{
+    color: var(--botton-primary) ;
+    background-color: var(--button-secondary);
+}
+.secondary-button{
+    background-color: var(--button-secondary);
+    border: none;
+    color: var(--botton-primary);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.secondary-button:hover{
+    color: var(--botton-secondary) ;
+    background-color: var(--button-secondary-hover);
+}

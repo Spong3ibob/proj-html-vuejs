@@ -3,7 +3,15 @@ import AppNav from './AppNav.vue'
 export default {
   data() {
     return {
-
+      navfooters:[
+      'Shop',
+      'About',
+      'Gallery',
+      'Locations',
+      'Journal',
+      'Contact',
+      'Orders',
+      ]
     }
   },
   components: {
@@ -17,7 +25,10 @@ export default {
 <template>
 <footer>
 
-  <AppNav/>
+  <AppNav
+  v-for="navfooter in navfooters"
+  :nav="navfooter"
+  />
 </footer>
 </template>
 

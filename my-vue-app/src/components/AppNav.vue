@@ -6,24 +6,16 @@ export default {
         }
     },
     props: {
-        info:Object,
+        nav:Object,
     }
 }
 </script>
 
 <template>
     <ul>
-        <li>{{ info }}</li>
-        <!-- <li class="active">HOME</li>
-        <li>SHOP</li>
-        <li>ABOUT</li>
-        <li>GALLERY</li>
-        <li>LOCATIONS</li>
-        <li>JOURNAL</li>
-        <li>CONTACT</li>
-        <li>MY ACCOUNT</li> -->
+        <li :class="active == true">{{ nav }}</li>
     </ul>
-
+    <font-awesome-icon icon="fa-solid fa-cart-shopping"/>
 </template>
 
 <style lang="scss">

@@ -6,7 +6,10 @@ export default {
     data () {
         return {
             navheaders:[
-                'HOME',
+                // link={
+                //     name:'HOME',
+                //     val:true,
+                // },
                 'SHOP',
                 'ABOUT',
                 'GALLERY',
@@ -14,8 +17,13 @@ export default {
                 'JOURNAL',
                 'CONTACT',
                 'MY ACCOUNT',
-                '<font-awesome-icon icon="fa-solid fa-cart-shopping" />'
-            ]
+            ],
+            // textheaders:[
+            //     pretitle = 'FRESCH & TASTY BAKERY EVERY DAY',
+            //     title = 'The Perfect Frech Bread',
+            //     content = 'Cras conserquat lectus vestiblum toutor pulvinar,quis eiusmond nisl varius. Aliquam erat volutpat. Nullam quis sagittin nibh ac nulla id orci tempor.',
+            //     button = 'Explore our products',
+            // ]
         }
     },
  components: {
@@ -31,7 +39,7 @@ export default {
             <img src="../assets/avada-bakery-logo.png" alt="">
             <AppNav 
             v-for="navheader in navheaders"
-            :info="navheader"
+            :nav="navheader"
             />
         </div>
         
@@ -40,7 +48,7 @@ export default {
 
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .container-nav{
     display: flex;
     align-items: center;
@@ -50,7 +58,9 @@ img{
     padding-top: 20px;
     padding-left: 35px;
 }
-
+.container-text{
+    width: 500px;
+}
 </style>
 
 
