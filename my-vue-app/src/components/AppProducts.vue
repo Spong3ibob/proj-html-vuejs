@@ -28,17 +28,8 @@ export default {
     :text="textproduct"
     />
     <div class="carosel">
-      <div class="cookies">
-        <div class="price">
-          <h2>Choco Chip Cookies</h2>
-          <span>Cookies, Pastries</span>
-          <h3>$19.00 $39.00</h3>
-        </div>
-        <img src="../assets/choco-chip-cookies.jpg" alt="">
-      </div>
-      <div class="jam-cookies">
-      <!-- <img src="../assets/strawberry-jam-cookies.jpg" alt=""> -->
-      </div>
+      <img src="../assets/choco-chip-cookies.jpg" alt="">
+      <img src="../assets/strawberry-jam-cookies.jpg" alt="">
       <font-awesome-icon icon="fa-solid fa-chevron-right" class="arrow-right"/>
       <font-awesome-icon icon="fa-solid fa-chevron-left" class="arrow-left"/>
     </div>
@@ -57,47 +48,9 @@ export default {
   img{
     height: 675px;
     width: 530px;
+    padding-left: 20px;
   }
 }
-.cookies{
-  height: 670px;
-  width: 525px;
-}
-.price{
-  display: none;
-  width: 100%;
-  height: 100%;
-}
-.price:hover{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50%;
-  background-image: url(../assets/choco-chip-cookies.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.cookies{
-  display: block;
-}
-.cookies:hover{
-  display: none;
-}
-h2{
-  color: var(--primary-color);
-}
-span{
-  color: var(--primary-color);
-  padding-top: 10px;
-}
-h3{
-  color: var(--primary-color);
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  padding-top: 20px;
-}
-
 .container-text{
   width: 500px;
 }

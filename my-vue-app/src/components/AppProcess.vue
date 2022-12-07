@@ -67,6 +67,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.container-process{
+    padding-top: 240px;
+}
 .card-big1{
 height: 815px;
 width: 100%;
