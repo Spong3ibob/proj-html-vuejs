@@ -14,8 +14,10 @@ export default {
     <section class="section-events">
         <span>CORPORATE & WEDDINGS</span>
         <h2>Baking Special Moments</h2>
-        <img src="../assets/corporate-bg.jpg" alt="">
-        <img src="../assets/wedding-bg.jpg" alt="">
+        <div class="container-img">
+            <img src="../assets/corporate-bg.jpg" alt="">
+            <img src="../assets/wedding-bg.jpg" alt="">
+        </div>
     </section>
 </template>
 
@@ -27,6 +29,11 @@ export default {
 img{
     height: 845px;
     width: 795px;
-    padding: 50px;
+}
+.container-img{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    justify-content: space-between;
 }
 </style>

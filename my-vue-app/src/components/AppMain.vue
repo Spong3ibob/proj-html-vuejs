@@ -1,6 +1,7 @@
 <script>
 import AppProducts from './AppProducts.vue'
 import AppEvents from './AppEvents.vue'
+import AppShop from './AppShop.vue'
 
 export default {
   data() {
@@ -11,16 +12,17 @@ export default {
   components: {
     AppProducts,
     AppEvents,
+    AppShop,
   }
 }
 </script>
 
 <template>
 <main>
- <AppProducts/>
- <AppEvents/>
+  <AppProducts/>
+  <AppEvents/>
+  <AppShop/>
 
-  
 </main>
 </template>
 

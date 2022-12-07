@@ -18,7 +18,6 @@ export default {
         <h2>{{ text.descrition }}</h2>
         <p>{{ text.content }}</p>
         <button :class="{primaryButton: text.primary, secondaryButton: text.secondary}">{{ text.button }}</button>
-        <!-- <button :class="{}">{{ text.button }}</button> -->
     </div>
 
 </template>

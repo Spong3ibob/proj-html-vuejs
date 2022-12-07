@@ -41,13 +41,14 @@ export default {
   width: 100%;
   padding-top: 180px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .carosel{
   position: relative;
   img{
     height: 675px;
     width: 530px;
+    padding-left: 20px;
   }
 }
 .container-text{
@@ -55,10 +56,10 @@ export default {
 }
 .arrow-right{
   top: 300px;
-  right: 0;
+  right: 0px;
 }
 .arrow-left{
   top: 300px;
-  left: 0;
+  left: 20px;
 }
 </style>
