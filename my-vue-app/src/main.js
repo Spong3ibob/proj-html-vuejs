@@ -12,10 +12,14 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faCopyright } from '@fortawesome/free-regular-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faPinterestP } from '@fortawesome/free-brands-svg-icons'
+
 
 
 /* add icons to the library */
-library.add(faCartShopping,faChevronRight,faChevronLeft,faFacebook,faInstagram)
+library.add(faCartShopping,faChevronRight,faChevronLeft,faFacebook,faInstagram,faCopyright,faTwitter,faPinterestP)
 
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
