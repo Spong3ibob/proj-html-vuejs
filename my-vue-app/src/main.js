@@ -10,12 +10,12 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
-// import { fafacebook } from '@fortawesome/free-solid-svg-icons'
-
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 
 /* add icons to the library */
-library.add(faCartShopping,faChevronRight,faChevronLeft)
+library.add(faCartShopping,faChevronRight,faChevronLeft,faFacebook,faInstagram)
 
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

@@ -2,7 +2,7 @@
 import AppText from './AppText.vue'
 
 export default {
-    dat () {
+    data () {
         return {
             textshops:[
                 {
@@ -60,6 +60,7 @@ export default {
 
 .section-shop{
     display: flex;
+    justify-content: space-between;
     padding-top: 230px;
 }
 .container-text{

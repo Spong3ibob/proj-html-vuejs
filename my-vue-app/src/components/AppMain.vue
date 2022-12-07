@@ -4,6 +4,7 @@ import AppEvents from './AppEvents.vue'
 import AppShop from './AppShop.vue'
 import AppProcess from './AppProcess.vue'
 import AppLocation from './AppLocation.vue'
+import AppSharing from './AppSharing.vue'
 
 export default {
   data() {
@@ -17,6 +18,7 @@ export default {
     AppShop,
     AppProcess,
     AppLocation,
+    AppSharing,
   }
 }
 </script>
@@ -28,6 +30,7 @@ export default {
   <AppShop/>
   <AppProcess/>
   <AppLocation/>
+  <AppSharing/>
 </main>
 </template>
 
