@@ -3,6 +3,7 @@ import AppProducts from './AppProducts.vue'
 import AppEvents from './AppEvents.vue'
 import AppShop from './AppShop.vue'
 import AppProcess from './AppProcess.vue'
+import AppLocation from './AppLocation.vue'
 
 export default {
   data() {
@@ -15,6 +16,7 @@ export default {
     AppEvents,
     AppShop,
     AppProcess,
+    AppLocation,
   }
 }
 </script>
@@ -25,6 +27,7 @@ export default {
   <AppEvents/>
   <AppShop/>
   <AppProcess/>
+  <AppLocation/>
 </main>
 </template>
 
