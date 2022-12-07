@@ -19,7 +19,6 @@ export default {
         <p>{{ text.content }}</p>
         <button :class="{primaryButton: text.primary, secondaryButton: text.secondary}">{{ text.button }}</button>
     </div>
-
 </template>
 
 <style lang="scss">

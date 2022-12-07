@@ -6,9 +6,9 @@ export default {
         return {
             textshops:[
                 {
-                    descrition : 'Find a freshly baked product perfect for you',
-                    content : 'Integer a nibh vitae ex porttitor return et ut velit. Eitiam ac felis at leo feugiat placerat. Sed ac nulla id orci tempor convallis sed.',
-                    button : 'Shop all products',
+                    descrition: 'Find a freshly baked product perfect for you',
+                    content: 'Integer a nibh vitae ex porttitor return et ut velit. Eitiam ac felis at leo feugiat placerat. Sed ac nulla id orci tempor convallis sed.',
+                    button: 'Shop all products',
                     primary:false,
                     secondary:true,
                 },
@@ -16,7 +16,7 @@ export default {
         }
 
     },
-    components:{
+    components: {
         AppText,
     }
 
